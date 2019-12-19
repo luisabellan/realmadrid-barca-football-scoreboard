@@ -9,6 +9,8 @@ function App() {
   //TODO: STEP 2 - Establish your application's state with some useState hooks.  You'll need one for the home score and another for the away score.
 const [homeScore, setHomeScore] = useState(0)
 const [awayScore, setAwayScore] = useState(0)
+const [currentHalf, setCurrentHalf] = useState(0)
+
 const [time, setTime] = useState(0)
 
 
