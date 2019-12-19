@@ -11,7 +11,12 @@ const [homeScore, setHomeScore] = useState(0)
 const [awayScore, setAwayScore] = useState(0)
 const [currentHalf, setCurrentHalf] = useState(0)
 
-const [time, setTime] = useState(0)
+const [seconds,setSeconds] = useState(0)
+const [tensSeconds,setTensSeconds] = useState(0)
+const [minutes,setMinutes] = useState(0)
+const [tensMinutes,setTensMinutes] = useState(0)
+
+const [time, setTime] = useState(`${tensMinutes}${minutes}:${tensSeconds}${seconds}`)
 
 
 

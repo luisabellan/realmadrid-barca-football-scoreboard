@@ -45,7 +45,7 @@
 .away__name,
 .down__title,
 .toGo__title,
-.half__title {
+.currentHalf__title {
   text-transform: uppercase;
   font-size: 3rem;
   padding: 2rem;
@@ -82,7 +82,7 @@
 .down,
 .toGo,
 .ballOn,
-.half {
+.currentHalf {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -90,7 +90,7 @@
 }
 
 .down__value,
-.half__value {
+.currentHalf__value {
   font-family: "Ozone";
   font-size: 5rem;
   color: var(--red);
